@@ -4,11 +4,21 @@
 
 fun main(){
   var sentence: "Barnie bakes brown bagels and buns"
+
+    var add
+    var count
+    var average
+
+    var radius (3.14159)
+
+   isPalindrome("madam")
+    printstring("Barnie bakes brown bagels")
+
 }
 
-fun printstring(){
-    var sentence: ("Barnie bakes brown bagels and buns")
-    sentence.slice("b")
+fun printstring(sentence:String){
+
+    var  new=sentence.replace("b"," ")
     println(sentence)
 
 }
@@ -33,7 +43,7 @@ fun numbers(){
 //Write and invoke a function that is capable of accurately calculating the
 //volume of any sphere given its radius. Use 3.14159 as π
 fun volume(){
- var number:3.14159
+ var radius=3.14159
  println()
 }
 
@@ -44,10 +54,12 @@ fun volume(){
 //word is a palindrome.
 
 fun isPalindrome(word:String): Boolean{
-    var word: madam;
-    if (madam);
-    println(true);
-    else()
-        println(false)
+
+    if (madam) {
+
+        println(true);
+    }
+    else(){
+        println(false)}
     println(word)
 }
