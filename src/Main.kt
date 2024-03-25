@@ -25,15 +25,12 @@ fun printstring(sentence:String){
 
 //Write and invoke one function that takes in an array of integers and returns
 //these 3 values: sum, count and average of all the elements.
-fun numbers(){
-    var (num1:Int ,num2:Int):Int{
-        var add
-        var count
-        var average
-
-    }
-
-    }
+fun numbers(number:Array<Int>){
+    for (x in numbers)
+        var sum = number.sum()
+    var count = number.count()
+    var average = number.average()
+}
 
 //  The volume of a sphere is calculated using the formula below
 //
